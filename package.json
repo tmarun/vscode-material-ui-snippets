@@ -1,9 +1,9 @@
 {
   "name": "material-ui",
-  "publisher": "Arunagiri",
+  "publisher": "ArunagiriTM",
   "displayName": "Material ui Snippets",
   "description": "Material ui Snippets for React by Arunagiri TM",
-  "icon": "",
+  "icon": "images/material-ui-logo.png",
   "galleryBanner": {
     "color": "#0273D4",
     "theme": "dark"

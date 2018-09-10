@@ -1058,5 +1058,44 @@
 			"</Tooltip>"
 		],
 		"description": "Tooltip"
+	},
+	"AppBar": {
+		"prefix": "mui-appbar",
+		"body": [
+			"<Appbar",
+			"    className=\"${1}\"",
+			"    color=\"${2|primary, inherit, secondary, default|}\"",
+			"    position=\"${3|fixed,absolute,sticky, static|}\"",
+			">",
+			"</Appbar >"
+		],
+		"description": "AppBar"
+	},
+	"Avatar": {
+		"prefix": "mui-avatar",
+		"body": [
+			"<Avatar",
+			"    alt=\"${1}\"",
+			"    className=\"${2}\"",
+			"    component=\"${3:div}\"",
+			"    sizes=\"${4}\"",
+			"    src=\"${0}\"",
+			">",
+			"</Avatar>"
+		],
+		"description": "Avatar"
+	},
+	"Backdrop": {
+		"prefix": "mui-backdrop",
+		"body": [
+			"<Backdrop",
+			"    className=\"${1}\"",
+			"    invisible=\"${2:false}\"",
+			"    open=\"${3:false}\"",
+			"    transitionDuration=\"${0}\"",
+			">",
+			"</Backdrop>"
+		],
+		"description": "Backdrop"
 	}
 }
